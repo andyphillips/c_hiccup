@@ -12,5 +12,5 @@ c_hiccup: $(SRCS)
 clean: 
 	rm -f c_hiccup *~ *.o
 
-install: 
-	
+install:  c_hiccup
+	cp -f c_hiccup /usr/local/bin
