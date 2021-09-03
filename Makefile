@@ -13,4 +13,4 @@ clean:
 	rm -f c_hiccup *~ *.o
 
 install:  c_hiccup
-	install -D -m 0755 c_hiccup ${DESTDIR}/usr/local/bin
+	install -D -m 0755 c_hiccup ${DESTDIR}/usr/local/bin/c_hiccup
