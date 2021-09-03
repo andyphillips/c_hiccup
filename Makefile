@@ -13,4 +13,4 @@ clean:
 	rm -f c_hiccup *~ *.o
 
 install:  c_hiccup
-	cp -f c_hiccup /usr/local/bin
+	cp -f c_hiccup ${DESTDIR}/usr/local/bin
