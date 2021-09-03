@@ -11,3 +11,6 @@ c_hiccup: $(SRCS)
 
 clean: 
 	rm -f c_hiccup *~ *.o
+
+install: 
+	
